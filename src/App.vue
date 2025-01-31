@@ -1,6 +1,20 @@
 <template>
-  <link href="/dist/styles.css" rel="stylesheet" />
-  <h1 class="text-3xl font-bold underline">Hello world!</h1>
+  <div>
+    <NavigationBar></NavigationBar>
+    <router-view></router-view>
+    <FooterView></FooterView>
+  </div>
 </template>
 
-<style scoped></style>
+<script>
+export default {
+  name: 'App',
+}
+</script>
+
+<script setup>
+import NavigationBar from './views/NavigationBar.vue'
+import FooterView from './views/FooterView.vue'
+</script>
+
+<style lang="scss" scoped></style>
