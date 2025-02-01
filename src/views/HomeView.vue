@@ -1,13 +1,13 @@
 <template>
-  <div class="min-h-screen">
-    <!-- 페이지 내용 -->
-    <main class="max-w-7xl mx-auto px-4">
-      <h1 class="text-3xl py-4 font-bold text-gray-800 mb-2">Welcome</h1>
-      <p class="text-gray-600">여기에 메인 콘텐츠가 들어갑니다.</p>
-    </main>
-  </div>
+  <main class="my-10 min-h-screen flex justify-center">
+    <MainImageGrid></MainImageGrid>
+    <ScrollToTop></ScrollToTop>
+  </main>
 </template>
 
-<script setup></script>
+<script setup>
+import MainImageGrid from '@/components/home/MainImageGrid.vue'
+import ScrollToTop from '@/components/ScrollToTop.vue'
+</script>
 
 <style lang="scss" scoped></style>

@@ -13,8 +13,8 @@ export default {
 </script>
 
 <script setup>
-import NavigationBar from './views/NavigationBar.vue'
-import FooterView from './views/FooterView.vue'
+import NavigationBar from './components/TheNavBar.vue'
+import FooterView from './components/TheFooter.vue'
 </script>
 
 <style lang="scss" scoped></style>
