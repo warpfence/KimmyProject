@@ -20,9 +20,6 @@
         <li>
           <a href="/contact" class="hover:text-gray-400 transition">Contact</a>
         </li>
-        <li>
-          <a href="/develop" class="hover:text-gray-400 transition">Develop</a>
-        </li>
       </ul>
     </div>
     <div

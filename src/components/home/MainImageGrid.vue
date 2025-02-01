@@ -1,7 +1,7 @@
 <template>
-  <div class="max-w-[1508px] bg-black grid grid-cols-3 gap-1">
+  <main class="container max-w-[1508px] bg-black grid grid-cols-3 gap-1">
     <ImageComp :imagePaths="imagePaths"></ImageComp>
-  </div>
+  </main>
 </template>
 
 <script setup>
