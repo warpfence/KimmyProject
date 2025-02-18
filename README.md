@@ -1,5 +1,7 @@
 # KimmyProject
+
 ## Project 구성
+
 - ✔ Project name: … vue-project
 - ✔ Add TypeScript? … No
 - ✔ Add JSX Support? … No
@@ -9,7 +11,11 @@
 - ✔ Add an End-to-End Testing Solution? › No
 - ✔ Add ESLint for code quality? › Yes
 - ✔ Add Prettier for code formatting? … Yes
+
 # FrontEnd
+
 ## Vue
+
 # BackEnd
+
 ## FastAPI
