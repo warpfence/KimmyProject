@@ -11,7 +11,7 @@ export default [
       'vue/no-undef-components': [
         'error',
         {
-          ignores: ['router-view', 'router-link'],
+          ignorePatterns: ['router-view', 'router-link'],
         },
       ],
     },

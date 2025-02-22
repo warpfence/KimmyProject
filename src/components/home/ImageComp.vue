@@ -12,12 +12,12 @@
 </template>
 
 <script setup>
-const props = defineProps({
-  imagePaths: {
-    type: Array,
-    required: true,
-  },
-})
+// const props = defineProps({
+//   imagePaths: {
+//     type: Array,
+//     required: true,
+//   },
+// })
 </script>
 
 <style lang="scss" scoped></style>
